@@ -93,6 +93,11 @@ WinMain(
    }
 }
 
+int __cdecl main()
+{
+    WinMain(GetModuleHandle(NULL), 0, 0, 1);
+}
+
 
 VOID
 ResizeControls(VOID)
